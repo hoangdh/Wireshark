@@ -20,7 +20,9 @@
 
 #### *Chi tiết*
 
-##### Chọn Interface muốn bắt gói tin
+##### Các bắt các gói tin
+
+Chọn Interface muốn bắt gói tin
 
 <img src="http://i.imgur.com/MJbzBHQ.png" />
 
@@ -36,7 +38,25 @@ Sau khi chọn Interface, bấm Start để bắt các gói tin
 
 Kích đúp vào gói tin cần xem
 
-<img src="http://prntscr.com/anummk" />
+<img src="http://i.imgur.com/fQNhw9S.png" />
 
-- `1`: Các thông số đã được Wireshare biên dịch sang dang cleartext
+- `1`: Các thông số đã được Wireshare biên dịch sang dạng cleartext
 - `2`: Thông số HEX mà Wireshare bắt được
+
+#### Lọc các gói tin
+
+Lọc theo giao thức "TCP"
+
+<img src="http://i.imgur.com/6TW4lIv.png" />
+
+Chúng ta cũng có thể lọc với nhiều điều kiện bằng cách chuột phải vào *giá trị* của gói tin và chọn:
+
+Ví dụ, chúng ta lọc gói tin với giao thức TCP với Destination như hình và chuột phải:
+
+<img src="http://i.imgur.com/pfG52IJ.png" />
+
+Cụ thể, ta tìm các gói có DES là 239.255.255.250 và theo giao thức UDP
+
+<img src="http://i.imgur.com/jlXnuTl.png" />
+
+
