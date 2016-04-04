@@ -18,7 +18,7 @@
 - `4`: Chi tiết từng gói tin được viết theo Hex
 - `Fitter`: dùng để lọc các gói tin theo Giao thức, kích cỡ, Địa chỉ, ...
 
-#### *Chi tiết*
+#### *Hướng dẫn chi tiết*
 
 ##### Các bắt các gói tin
 
@@ -40,7 +40,7 @@ Kích đúp vào gói tin cần xem
 
 <img src="http://i.imgur.com/fQNhw9S.png" />
 
-- `1`: Các thông số đã được Wireshare biên dịch sang dạng clear-text
+- `1`: Các thông số đã được Wireshare biên dịch sang dạng cleartext
 - `2`: Thông số HEX mà Wireshare bắt được
 
 #### Lọc các gói tin
@@ -57,6 +57,14 @@ Ví dụ, chúng ta lọc gói tin với giao thức TCP với Destination như 
 
 Cụ thể, ta tìm các gói có DES là 239.255.255.250 và theo giao thức UDP
 
-<img src="http://i.imgur.com/uoJg1PD.png" />
+<img src="http://i.imgur.com/jlXnuTl.png" />
+
+Chúng ta có thể lọc kết hợp các điều kiện với các phép toán AND, OR, NOT, ...
+
+#### 3. Tham khảo
+
+- https://www.wireshark.org/docs/
+
+*Bài viết còn sơ sài và nội dung chỉ hướng dẫn cơ bản do mới làm quen với Wireshark, và sẽ được update dần.*
 
 
